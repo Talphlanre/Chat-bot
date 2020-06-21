@@ -3,55 +3,46 @@ body {
     font-family: 'Piedra', cursive;
     background: #0099CC;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-body::after {
-    content: "";
-    background-image: url("puppy.png");
-    background-repeat: no-repeat;
-    top: 10%;
-    left: 10%;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
 
 h1 {
     font-size: 55px;
     color: #003399;
     font-family: 'Indie Flower', cursive;
-
 }
 
 span {
     color: white;
 }
 
-:::-webkit-input-placeholder {
+::-webkit-input-placeholder {
     color: #711;
-}
-
-#main {
-    position: fixed;
-    top: 6.666%;
-    right: 105px;
-    width: 400px;
-    border: 0px solid #421;
-    padding: 40px;
 }
 
 #main div {
     margin: 10px;
     display: flex;
     flex-direction: column;
-     align-items: center;
+    align-items: center;
 }
 
 #input {
-    border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     border: 3px solid #421;
     width: 80%;
+}
+
+@media (max-width: 475px) {
+    body {
+        flex-direction: column;
+    }
+
+    .puppy-pic img {
+        width: 90%;
+    }
 }

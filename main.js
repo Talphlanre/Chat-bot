@@ -15,7 +15,7 @@ const trigger = [
     ["thanks", "thank you"],
     //7
     ["bye", "good bye", "goodbye"]
-  ];
+];
 
 const reply = [
     //0
@@ -31,14 +31,15 @@ const reply = [
     //5
     ["Yeah, lets play ball.", "Yeah, lets go for a walk."],
     //6
-    ["You're welcome", "No problem"],
+    ["You're welcome", "I wanna lick your face."],
     //7
     ["Goodbye", "See you later"]
-  
+
 ];
 
 const alternative = [
-    "Same", "Go on...", "Try again", "I'm listening...", "BIRDS!!!!"];
+    "ruff... ruff...", "Go on...", "Squirrel!!!!!!!!", "I'm listening...", "BIRDS!!!!"
+];
 
 const robot = ["Am I cute?", "I am not a bot, I'm a puppy", "Please snuggle me"];
 
