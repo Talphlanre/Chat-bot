@@ -1,13 +1,25 @@
 body {
     color: #CCFFCC;
-    font-family: 'Piedra', cursive;
+    font-family: 'Indie Flower', cursive;
     background: #0099CC;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
 }
 
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #003399;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
 
 h1 {
     font-size: 55px;
@@ -34,15 +46,41 @@ span {
     padding: 10px;
     text-align: center;
     border: 3px solid #421;
-    width: 80%;
+    width: 90%;
+}
+
+footer {
+    background-color: #003399;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 @media (max-width: 475px) {
-    body {
+
+    .main-section {
         flex-direction: column;
+        text-align: center;
+        margin-top: 35px;
     }
 
     .puppy-pic img {
-        width: 90%;
+        width: 80%;
     }
+
+    h1 {
+        font-size: 40px;
+        margin: 0 0 10px 0;
+    }
+
+    #input {
+        padding: 5px;
+    }
+
+    #main div {
+        font-size: 20px;
+    }
+
 }
